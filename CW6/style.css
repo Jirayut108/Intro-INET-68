@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  display: flex;
+  min-height: 80vh;
+}
+main {
+  flex: 1;
+  padding: 20px;
+}
+aside {
+  width: 200px;
+  background-color:gold;
+  padding: 15px;
+}
+.menu-btn {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  padding-left: 10px; /* เพิ่มระยะห่างจากขอบซ้าย */
+  margin-bottom: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: left; /* ชิดซ้ายข้อความ */
+}
+.menu-btn:hover {
+  background-color: #333;
+}
+footer {
+  background-color: pink;
+  text-align: center;
+  padding: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  padding: 10px;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  padding: 5px;
+  margin-right: 5px;
+}
